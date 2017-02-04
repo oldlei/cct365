@@ -23,7 +23,7 @@ Route::group(['prefix' => 'admin','namespace' => 'Admin'],function ($router)
 {
     $router->get('login', 'LoginController@showLoginForm');
     $router->post('login', 'LoginController@login');
-    $router->post('logout', 'LoginController@logout');
+    $router->get('logout', 'LoginController@logout');
 
     $router->get('index', 'IndexController@index');
 		$router->get('/', 'IndexController@index');
