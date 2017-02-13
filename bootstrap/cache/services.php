@@ -27,6 +27,10 @@
     23 => 'App\\Providers\\AuthServiceProvider',
     24 => 'App\\Providers\\EventServiceProvider',
     25 => 'App\\Providers\\RouteServiceProvider',
+    26 => 'Zizaco\\Entrust\\EntrustServiceProvider',
+    27 => 'Prettus\\Repository\\Providers\\RepositoryServiceProvider',
+    28 => 'Laracasts\\Flash\\FlashServiceProvider',
+    29 => 'HieuLe\\Active\\ActiveServiceProvider',
   ),
   'eager' => 
   array (
@@ -44,6 +48,10 @@
     11 => 'App\\Providers\\AuthServiceProvider',
     12 => 'App\\Providers\\EventServiceProvider',
     13 => 'App\\Providers\\RouteServiceProvider',
+    14 => 'Zizaco\\Entrust\\EntrustServiceProvider',
+    15 => 'Prettus\\Repository\\Providers\\RepositoryServiceProvider',
+    16 => 'Laracasts\\Flash\\FlashServiceProvider',
+    17 => 'HieuLe\\Active\\ActiveServiceProvider',
   ),
   'deferred' => 
   array (

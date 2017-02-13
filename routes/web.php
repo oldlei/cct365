@@ -28,3 +28,4 @@ Route::group(['prefix' => 'admin','namespace' => 'Admin'],function ($router)
     $router->get('index', 'IndexController@index');
 		$router->get('/', 'IndexController@index');
 });
+ Route::resource('menu', Admin\MenusController::class);

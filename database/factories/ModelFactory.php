@@ -31,3 +31,18 @@ $factory->define(App\Models\Admin::class,function (Faker\Generator $faker){
 			'remember_token' => str_random(10),
 	];
 });
+
+$factory->define(App\Models\Post::class,function (Faker\Generator $faker){
+	return [
+			'title' => $faker->name,
+			'postid' => $faker->numberBetween($min = 1, $max = 200),
+			'content' => $faker->text,
+	];
+});
+$factory->define(App\Models\Menu::class,function (Faker\Generator $faker){
+	return [
+			'title' => $faker->name,
+			//'postid' => $faker->numberBetween($min = 1, $max = 200),
+			'content' => $faker->text,
+	];
+});
